@@ -44,8 +44,8 @@
 - ルートディレクトリに.envファイルを作成し、HuggingFaceのトークンを記載する（トークンの発行方法は以下のとおり）
   1. HuggingFace（https://huggingface.co/）のアカウントを作る
   2. pyannoteのモデルの利用申請を行う
-    - https://huggingface.co/pyannote/speaker-diarization-3.1
-    - https://huggingface.co/pyannote/segmentation-3.0
+     - https://huggingface.co/pyannote/speaker-diarization-3.1
+     - https://huggingface.co/pyannote/segmentation-3.0
   3. アクセストークンを発行する（https://huggingface.co/settings/tokens）
   ```
   HUGGING_FACE_TOKEN="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
