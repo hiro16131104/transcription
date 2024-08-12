@@ -1,0 +1,13 @@
+# お決まりセット
+.vscode/
+__pycache__/
+.DS_Store
+.env
+
+# ディレクトリ配下のファイルを全て除外
+/assets/media/*
+/assets/texts/*
+
+# txtファイルは例外
+!/assets/media/*.txt
+!/assets/texts/*.txt

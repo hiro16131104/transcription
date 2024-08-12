@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "transcription"
+version = "0.1.0"
+description = ""
+authors = ["hiro16131104 <hiro931104@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.8.0"
+flake8 = "^7.1.1"
+isort = "^5.13.2"
+faster-whisper = "^1.0.3"
+moviepy = "^1.0.3"
+pyannote-audio = "^3.3.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
